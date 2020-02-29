@@ -3,7 +3,7 @@ extends Node2D
 # 2020-02-29 acodemia.pl
 
 export (int) var mech_speed = 100
-const HEALTH_MAX = 100
+const HEALTH_MAX = 200
 const HEALTH_MIN = 0
 
 var target = Vector2()
@@ -19,7 +19,7 @@ var on_scene = false
 
 export (float) var created_bullet_scale_factor = 1
 export (float) var created_bullet_speed = 200
-export (float) var bullet_caliber = 2
+export (float) var bullet_caliber = 100
 
 var red_key = false
 var green_key = false
@@ -116,6 +116,9 @@ func _on_TimerShoot_timeout():
 	shooting = true
 	pass
 	
+func has_keys():
+	return set_of_keys
+	pass
 	
 func Shot():
 	

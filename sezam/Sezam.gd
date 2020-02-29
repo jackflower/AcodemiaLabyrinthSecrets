@@ -8,8 +8,9 @@ func _ready():
 	
 func _on_ActivationZone_body_entered( body ):
 	#print("Mech in zone...") # testy
-	if(body.set_of_keys):
-		$AnimationPlayer.play("door_open_animation")
+	if(body.has_method("has_keys")):
+		if(body.has_keys()):
+			$AnimationPlayer.play("door_open_animation")
 	pass
 	
 	
