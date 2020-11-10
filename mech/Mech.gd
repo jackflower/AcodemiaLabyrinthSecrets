@@ -1,4 +1,5 @@
-extends Node2D
+#extends Node2D
+extends KinematicBody2D
 
 # 2020-02-29 acodemia.pl
 
