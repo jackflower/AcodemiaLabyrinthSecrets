@@ -1,6 +1,6 @@
 # Projekt Acodemia - Acodemia Labyrinth Secrets
 
-Godot Engine 3.0.6 released July 29, 2018
+Godot Engine v3.3.4.stable.official, update 2022
 
 ![Acodemia icon](https://github.com/jackflower/AcodemiaLabyrinthSecrets/blob/master/acodemia_mysterious_maze_icon.png)
 
